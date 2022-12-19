@@ -1,0 +1,36 @@
+# Application
+web/app/plugins/*
+!web/app/plugins/.gitkeep
+web/app/mu-plugins/*/
+web/app/themes/twentytwentytwo/
+web/app/upgrade
+web/app/languages/*
+!web/app/languages/it_IT.po
+!web/app/languages/it_IT.mo
+!web/app/languages/admin-it_IT.mo
+!web/app/languages/admin-it_IT.po
+!web/app/languages/admin-network-it_IT.mo
+!web/app/languages/admin-network-it_IT.po
+!web/app/languages/continents-cities-it_IT.mo
+!web/app/languages/continents-cities-it_IT.po
+web/app/uploads/*
+!web/app/uploads/.gitkeep
+web/app/cache/*
+
+# WordPress
+web/wp
+web/.htaccess
+
+# Logs
+*.log
+
+# Dotenv
+.env
+.env.*
+!.env.example
+
+# Composer
+/vendor
+
+# WP-CLI
+wp-cli.local.yml
