@@ -43,7 +43,8 @@
     "wpackagist-theme/twentytwentytwo": "^1.2",
     "wpackagist-plugin/wp-rest-api-v2-menus": "^0.10.0",
     "wpackagist-plugin/advanced-custom-fields": "^5.12",
-    "wpackagist-plugin/jetpack": "^11.6"
+    "wpackagist-plugin/jetpack": "^11.6",
+    "wpackagist-plugin/kadence-blocks": "3.0.21"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.6.2",
@@ -54,7 +55,8 @@
     "preferred-install": "dist",
     "allow-plugins": {
       "composer/installers": true,
-      "roots/wordpress-core-installer": true
+      "roots/wordpress-core-installer": true,
+      "oomphinc/composer-installers-extender": true
     }
   },
   "minimum-stability": "dev",
